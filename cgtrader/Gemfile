@@ -11,6 +11,10 @@ gem "sprockets-rails"
 # Use mysql2 as the database for Active Record
 gem "mysql2"
 
+# elasticsearch
+gem 'elasticsearch-model', ">= 7.0"
+gem 'elasticsearch-rails', ">= 7.0"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
