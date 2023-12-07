@@ -4,7 +4,8 @@ default: &default
   username: cgtrader
   password: cgtrader
   host: db
-  encoding: utf8
+  encoding: utf8mb4
+  collation: utf8mb4_general_ci
 
 development:
   <<: *default
